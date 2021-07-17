@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import "./mobile.css";
 @import "./sitcom-content.css";
 @import "./movie-content.css";
 @import "./band-content.css";
@@ -23,6 +24,9 @@ body{
   align-items: center;
   justify-content: space-evenly;
 }
+
+@media (min-width: 1000px){
+
 .menu{
   height: 95%;
   width: 20%;
@@ -274,3 +278,4 @@ body{
     transform: translateX(-50%);
 }
 
+}
