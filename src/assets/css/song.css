@@ -1,0 +1,12 @@
+#song1, #lady{
+    animation: hover 5s infinite both;
+}
+
+@keyframes hover{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+}

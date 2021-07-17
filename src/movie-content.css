@@ -1,0 +1,109 @@
+.movie-content{
+    height: 37%;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,30%);
+    display: flex;
+    align-items: center;
+}
+
+.movie-content .card{
+height: 90%;
+width: 200px;
+border-radius: 10px;
+cursor: pointer;
+background: transparent;
+padding: 10px;
+padding-top: 25px;
+margin: 0 10px;
+overflow: hidden;
+transition: 0.5s;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+box-shadow: 5px 5px 10px rgba(0,0,0,0.5), -3px -3px 6px rgba(255,255,255,0.08);
+}
+.movie-content .card:hover{
+box-shadow: 5px 5px 10px rgba(0,0,0,0.5), -5px -5px 10px rgba(255,255,255,0.09),5px 5px 20px rgba(0,0,0,0.3);
+}
+
+.movie-content .card:active{
+box-shadow: inset 5px 5px 10px rgba(0,0,0,0.3), inset -3px -3px 6px rgba(255,255,255,0.08)
+}
+
+.movie-content .card .dp{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+background-position: center;
+background-size: cover;
+transition: 0.5s;
+}
+.movie-content .card:hover .dp{
+    width: 100%;
+    height: 70%;
+    margin-top: -10%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+.movie-content .card .name{
+width: 100%;
+height: 30px;
+margin: 5px 0;
+color: #dedede;
+font-weight: 700;
+text-align: center;
+line-height: 1.1rem;
+font-size: 1.2rem;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+transition: color 0.5s;
+}
+.movie-content .card:hover .name{
+    color: #1db954;
+}
+.movie-content .card .genre{
+    width: 100%;
+    height: 10px;
+    color: #dedede59;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.5s;
+}
+.movie-content .card:hover .genre{
+color: #1db95459;
+}
+
+.movie-content .card:nth-child(1) .dp{
+    background-image: url('https://flxt.tmsimg.com/assets/p11111906_p_v13_au.jpg');
+    background-position: 50% 90%;
+  }
+  .movie-content .card:nth-child(2) .dp{
+    background-image: url('https://www.joblo.com/assets/images/oldsite/posters/images/full/interstellar_sky.jpg');
+    background-position: 50% 50%;
+  }
+  .movie-content .card:nth-child(3) .dp{
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/a/a4/The_Sixth_Sense_poster.png');
+    background-position: 50% 25%;
+  }
+  .movie-content .card:nth-child(4) .dp{
+    background-image: url('https://spokeo.pl/storage/article/2dqNVruH5rZ3u6lxBzyI5gDpo9ha1jre4bk5m2zJ.jpeg');
+    background-position: 20% 0%;
+  }
+  .movie-content .card:nth-child(5) .dp{
+    background-image: url('https://i.pinimg.com/originals/c3/da/22/c3da222db2940a3c07c53b6f8bd83558.jpg');
+    background-position: 50% 30%;
+  }

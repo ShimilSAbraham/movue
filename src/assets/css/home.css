@@ -1,0 +1,24 @@
+#Leaf{
+    transition: 0.5s;
+    cursor: pointer;
+}
+#Leaf:hover{
+    transform: translateY(-20px);
+    fill: rgb(71, 255, 126);
+}
+
+#meditate{
+    animation: med 4s infinite ease-in-out both;
+}
+
+@keyframes med {
+    0%,100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-35px);
+    }
+    50%{
+        transform: translateY(-35px);
+    }
+}

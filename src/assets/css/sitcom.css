@@ -1,0 +1,48 @@
+#netflix{
+    cursor: pointer;
+    transform-origin: center center;
+    transition: transform 0.3s;
+}
+#netflix:hover{
+    transform: scale(1.05);
+}
+
+#leaf1{
+    transform-origin: 8% 80%;
+    animation: breezeleft 10s infinite both ease;
+}
+#leaf2{
+    transform-origin: 13% 81%;
+    animation: breeze 10s infinite both ease;
+}
+
+@keyframes breezeleft{
+    0%,100%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-22deg);
+    }
+    50%{
+        transform: rotate(0deg);
+
+    }
+    75%{
+        transform: rotate(22deg);
+    }
+}
+@keyframes breeze{
+    0%,100%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(22deg);
+    }
+    50%{
+        transform: rotate(0deg);
+
+    }
+    75%{
+        transform: rotate(-22deg);
+    }
+}

@@ -1,0 +1,37 @@
+#play{
+    cursor: pointer;
+    transition: 0.5s;
+    transform-origin: 85.5% 13.5%;
+}
+#play:hover{
+    /* transform: scale(1.5); */
+    transform: rotate(360deg);
+
+}
+
+#popcorn{
+    transform-origin: 20% 28%;
+    animation: bounce 6s infinite both;
+}
+
+@keyframes bounce {
+    0%,75%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: rotate(-5deg) translateY(-30px) ;
+    }
+    55%{
+        transform: rotate(5deg) translateY(-30px) ;
+    }
+    60%{
+        transform: rotate(-1deg) translateY(-30px) ;
+    }
+    65%{
+        transform: rotate(0deg) translateY(-30px);
+    }
+    
+}
