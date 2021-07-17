@@ -223,7 +223,7 @@ body{
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
-    width: 300px;
+    width: 250px;
 }
 .movie-content{
     top: 40% !important;
