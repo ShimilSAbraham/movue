@@ -12,7 +12,7 @@ body{
 .menu{
     height: 45%;
     width: 70px;
-    background: #2e2e2e;
+    background: transparent;
     border-radius: 0 5px 5px 0;
     align-self: center;
 
@@ -90,8 +90,8 @@ body{
 
 }
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
 }
 ::-webkit-scrollbar-track {
     background: hsl(141,20%,40%);
@@ -164,7 +164,7 @@ body{
     text-decoration: none;
     margin-top: 5%;
     box-sizing: content-box;
-    padding: 0 20px;
+    padding: 10px 20px;
     background: transparent;
     color: #dedede;
     width: 40%;
